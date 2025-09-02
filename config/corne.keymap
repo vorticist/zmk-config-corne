@@ -33,7 +33,7 @@
 
         Clear_BLE_Profile {
             bindings = <&bt BT_CLR>;
-            key-positions = <0 38 5>;
+            key-positions = <0 41 5>;
         };
 
         Space {
