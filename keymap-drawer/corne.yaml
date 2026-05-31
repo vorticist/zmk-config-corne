@@ -89,7 +89,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   EXT:
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - F1
   - F2
   - F3
@@ -113,7 +113,7 @@ layers:
   - RGB EFF
   - RGB BRI
   - RGB BRD
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
