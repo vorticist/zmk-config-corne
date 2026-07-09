@@ -123,7 +123,7 @@ layers:
   - RGB HUD
   - RGB SAI
   - RGB SAD
-  - EP TOG
+  - EP ON
   - BT CLR
   - {t: ▽, type: trans}
   - {type: held}
