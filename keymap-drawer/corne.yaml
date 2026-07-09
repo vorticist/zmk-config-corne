@@ -89,7 +89,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   EXT:
-  - BT CLR ALL
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -113,7 +113,7 @@ layers:
   - RGB EFF
   - RGB BRI
   - RGB BRD
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -123,8 +123,8 @@ layers:
   - RGB HUD
   - RGB SAI
   - RGB SAD
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - EP TOG
+  - BT CLR
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -134,9 +134,16 @@ layers:
 combos:
 - p: [0, 41, 5]
   k: BT CLR
+  l: [BASE]
+- p: [0, 5, 11]
+  k: BT CLR ALL
+  l: [EXT]
 - p: [29, 28]
   k: SPACE
+  l: [BASE]
 - p: [17, 16]
   k: ENTER
+  l: [BASE]
 - p: [5, 6]
   k: CLCK
+  l: [BASE]
